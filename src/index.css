@@ -1,0 +1,71 @@
+:root {
+  font-family: 'Roboto', 'Heebo';
+  margin: 0 auto;
+  --celeste: #75AADB;
+  --amarillo: #FCBF49;
+  --amarillo-hover: #E0AB41;
+  --marron: #843511;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--celeste) !important;
+}
+
+.card-container {
+  width: 80vh !important;
+  height: 80vh !important;
+}
+
+.title-game {
+  font-family: 'Roboto' !important;
+  font-weight: 800;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.elcarlo-img {
+  height: 500px;
+  width: auto;
+  padding-bottom: 1rem;
+}
+
+.menem-boton {
+  background-color: var(--amarillo) !important;
+  border: var(--marron) !important;
+  color: white !important;
+  font-family: 'Roboto' !important;
+  font-weight: 400;
+  font-size: 2rem !important;
+  text-shadow: 1px 1px 2px var(--marron);
+}
+.menem-boton:hover {
+  background-color: var(--amarillo-hover) !important;
+}
+
+.game-container {
+  height: 100%;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.game-button {
+  font-family: 'Roboto' !important;
+  font-weight: 400;
+  font-size: 2rem !important;
+  text-shadow: 1px 1px 2px var(--marron); 
+}
+
+.img-over {
+  height: 500px;
+}
+
+@media (max-width: 1000px) {
+  .img-over {
+    width: 100%;
+    height: auto;
+  } 
+}
