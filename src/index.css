@@ -63,9 +63,19 @@ body {
   height: 500px;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 @media (max-width: 1000px) {
   .img-over {
     width: 100%;
     height: auto;
   } 
+
+  .elcarlo-img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+  }
 }
